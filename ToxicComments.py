@@ -7,7 +7,7 @@ from tensorflow.keras.layers import TextVectorization
 import numpy as np
 
 # Data loading
-df = pd.read_csv(r'C:\Users\neera\OneDrive\Desktop\GithubProject\archive\train.csv')
+df = pd.read_csv(r'add dataset path')
 X = df['comment_text']
 y = df[df.columns[2:]].values
 
